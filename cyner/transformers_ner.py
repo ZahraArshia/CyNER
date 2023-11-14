@@ -1,9 +1,9 @@
 from nltk.tokenize.punkt import PunktSentenceTokenizer as pt
 
-from .entity_extraction import EntityExtraction
-from .entity import Entity
-from .tner import TrainTransformersNER
-from .tner import TransformersNER as PredictTransformersNER
+from entity_extraction import EntityExtraction
+from entity import Entity
+from tner import TrainTransformersNER
+from tner import TransformersNER as PredictTransformersNER
 
 
 class TransformersNER(EntityExtraction):

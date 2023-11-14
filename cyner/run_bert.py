@@ -8,8 +8,8 @@ def run_bert():
         'lr': 5e-6,
         'epochs': 20,
         'max_seq_length': 128}
-    model = TransformersNER(cfg)
-    model.train()
+    model4 = TransformersNER(cfg)
+    model4.train()
 
     # cfg1 = {'checkpoint_dir': 'logs/xlm-roberta-base',
     #         'dataset': 'dataset/mitre',

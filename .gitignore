@@ -9,7 +9,8 @@ build
 *.egg-info
 dist
 
-ckpt*
+.ckpt*
 vocab
 apex
 cache
+.ckpt
